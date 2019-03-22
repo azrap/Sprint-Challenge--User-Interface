@@ -71,6 +71,54 @@ p {
     margin: 0 auto;
 }
 
+/* header */
+
+header{
+
+}
+
+/* header nav */
+
+header {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+
+  }
+
+header nav {
+    display: flex;
+    width: 600px;
+    /* vertical-align: top; */
+    margin: 45px 20px;
+    justify-content: space-around;
+    
+  }
+
+  /* header nav anchors & logo */
+  header nav a {
+    margin-right: 20px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header .logo {
+    margin-top: 20px;
+  }
+  header .header-img {
+    margin-bottom: 20px;
+    
+  }
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +149,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: rgb(17,128,127);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-2 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(254, 213, 48);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-3 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(97, 158, 159);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle-content .boxes .box-4 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(253, 127,86);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-5 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(213, 25, 63);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box-6 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(40, 138, 42);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.middle-content .boxes .box-7 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(152, 59,201);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-8 {
+    width: 12.5%;
+    height: 100px;
+    background:rgb(253 108 180);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-9 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(74, 13, 128);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-10 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(41, 147, 252);
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +290,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About page content */
+
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about-content .about-text{
+    padding: 20px;
+    border-bottom: 1px dotted black;
+    
+}
+
+.about-content .card{
+    padding-bottom: 10px;
+    border-bottom: 1px dotted black;
+    width: 370px;
+    background: white;
+    margin: 25px 0;
+    text-align: left;
+
+}
+
+.about-content .card .card-text{
+    margin: 10px 0;
+   
+}
+
+.about-content .card button {
+    padding: 5px 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.about-content .card button:hover {
+    background: black;
+    color: white;
+} 
+
+.about-content .about-bottom-content {
+        margin: 40px 15px;
+
 }
